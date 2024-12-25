@@ -1,0 +1,117 @@
+
+/* choose-us-section css */
+.choose-us-section{
+  padding: 76px 0;
+  overflow: hidden;
+}
+.choose-us-area{
+  gap: 50px;
+}
+.choose-us-contant{
+  padding-top: 126px;
+}
+.title-two{
+font-size: 48px;
+font-weight: 700;
+line-height: 57.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.choose-us-contant h4{
+font-size: 32px;
+font-weight: 700;
+line-height: 38.4px;
+color: var(--text-color);
+margin: 32px 0;
+}
+.choose-us-contant p{
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+}
+
+.it-consultation-section h2{
+  text-align: center;
+  margin: 40px 0;
+}
+
+.it-service-des{
+  color: var(--text-color);
+font-size: 18px;
+font-weight: 500;
+line-height: 32.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.it-service-des-two{
+font-size: 18px;
+font-weight: 600;
+line-height: 32.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--heading-color);
+}
+
+/* it-suite-section css */
+.it-suite-section {
+padding-top: 120px;
+overflow: hidden;
+}
+.it-suite-section h2{
+  text-align: center;
+}
+.it-suite-card{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+}
+.it-suite-signle-card{
+  background: var(--linear-backgroun-color);
+  padding: 32px;
+  border-radius: 24px;
+}
+.it-suite-signle-card h4{
+  margin: 24px 0 16px 0;
+font-size: 32px;
+font-weight: 600;
+line-height: 57.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--text-color);
+}
+.it-suite-signle-card .it-suite-des span{
+font-size: 18px;
+font-weight: 600;
+line-height: 32.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--heading-color);
+}
+.it-suite-signle-card .it-suite-des p{
+font-size: 18px;
+font-weight: 400;
+line-height: 32.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+/* it-buttom-suite-section css */
+.it-buttom-suite-section{
+  padding-top: 120px;
+}
+.it-buttom-suite-section .choose-us-contant{
+  padding-top: 50px;
+}
+.choose-des{
+  margin-top: 32px;
+}
+
+
+

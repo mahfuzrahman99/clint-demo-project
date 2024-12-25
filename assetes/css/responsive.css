@@ -1,0 +1,249 @@
+@media (max-width: 1400px){
+.we-serve{
+flex-wrap: wrap;
+}
+.our-service-card{
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+.single-service-card {
+  width: 100%;
+}
+
+.cyber-protection-card {
+  grid-template-columns: repeat(2, 1fr);
+}
+.footer-content{
+  flex-wrap: wrap;
+}
+.footer-midile .it-industry-area{
+  flex-wrap: wrap;
+}
+.it-industry-area{
+  flex-wrap: wrap;
+}
+
+}
+
+@media (max-width: 1200px) {
+  .navbar-brand img {
+      width: 120px;
+    }
+    .clients-images{
+  gap: 54px;
+}
+.contact-area{
+flex-direction: column;
+}
+.it-service-signle{
+  flex-direction: column;
+}
+.it-service-signle img{
+  width: 100%;
+  order: -1;
+  margin-bottom: 30px; 
+}
+.choose-us-area{
+  flex-wrap: wrap;
+}
+.choose-us-area img{
+  order: 1;
+}
+}
+
+@media (max-width: 1080px){
+.we-do{
+  flex-wrap: wrap;
+}
+.we-do-area{
+  width: 100%;
+  gap: 0;
+}
+.our-service-card {
+  grid-template-columns: auto;
+}
+.cyber-protection-card{
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+}
+
+
+@media (max-width: 991px) {
+  .navbar-brand img {
+      width: 100%;
+    }
+    .banner{
+      padding: 30px 0;
+    }
+    .banner h2{
+      font-size: 24px;
+    }
+      .clients-images{
+  gap: 34px;
+}
+.clients-area {
+  padding: 30px 0;
+}
+.we-do-section {
+  padding: 30px 0;
+}
+.we-serve-section {
+  padding: 30px 0;
+}
+.our-services-section {
+  padding: 30px 0;
+}
+.partners-section {
+  padding: 30px 0;
+}
+.support-section {
+  padding: 30px 0;
+}
+.looking-it-services-section {
+  padding: 30px 0;
+}
+.contact-section {
+  padding: 30px 0;
+}
+.banner-section {
+  padding: 30px 0;
+}
+.it-service-section {
+  padding: 30px 0;
+}
+.it-industry-section {
+  padding: 30px 0;
+}
+.choose-us-contant {
+  padding: 30px 0;
+}
+.choose-us-section {
+  padding: 30px 0;
+}
+.it-suite-section {
+  padding: 30px 0;
+}
+.it-buttom-suite-section {
+  padding: 30px 0;
+}
+.icon-box{
+  padding-left: 15px !important;
+}
+.banner-contant h2{
+  font-size: 28px;
+  line-height: 40px;
+}
+.banner-contant p{
+  font-size: 22px;
+  line-height: 34px;
+}
+.row{
+  flex-direction: column-reverse;
+}
+.mb-5{
+  margin-bottom: 20px !important;
+}
+.our-custom-accordion .accordion-header .collapsed{
+  font-size: 18px;
+  line-height: 18px;
+}
+.our-custom-accordion{
+  flex-direction: column;
+  gap: 20px;
+}
+.it-service-signle{
+  gap: 20px;
+
+}
+.our-custom-accordion-signle{
+  width: 100%;
+  margin: auto;
+}
+.cyber-protection-signle-card {
+  max-width: 400px;
+  height: auto;
+}
+.it-service-card{
+  grid-template-columns: auto;
+}
+.it-suite-card{
+  grid-template-columns: auto;
+}
+.footer-area{
+  padding: 64px;
+}
+}
+
+@media (max-width: 767px){
+.we-serve{
+  justify-content: center;
+}
+.we-serve-section .title h2{
+  font-size: 30px;
+}
+.navbar_sm{
+  display: flex;
+  align-items: center;
+  padding: 0 0 !important;
+  justify-content: space-between !important;
+}
+}
+
+@media (max-width: 550px){
+.title h2{
+font-size: 24px;
+}
+.clients-images{
+  gap: 24px;
+}
+.we-do-title{
+  flex-direction: column;
+  justify-content: center;
+}
+.we-do-description{
+  text-align: center;
+}
+.we-do-title img{
+  max-width: 60px;
+  margin: auto;
+}
+.title-two{
+  font-size: 40px;
+}
+.choose-us-contant h4{
+font-size: 28px;
+}
+
+}
+
+@media (max-width: 450px){
+.cyber-protection-signle-card {
+  max-width: 300px;
+}
+.banner-contant h2{
+  font-size: 28px;
+}
+.banner-contant p{
+  font-size: 22px;
+}
+.solution-section-1{
+  flex-direction: row-reverse;
+  gap: 34px;
+}
+.solution-section{
+  gap: 34px;
+}
+.plan_card_main{
+  flex-direction: column !important;
+  gap: 30px;
+}
+}
+
+
+
+
+
+
+

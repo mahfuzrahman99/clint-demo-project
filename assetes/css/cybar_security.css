@@ -1,0 +1,222 @@
+/* cyber banner */
+.banner-area {
+  background-color: #f5f5fa;
+}
+.cybar_banner_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  padding: 40px 40px;
+}
+.cybar_banner_content {
+  text-align: start !important;
+}
+.cybar_banner_img {
+  width: 550px;
+}
+
+/* cyber Service */
+.Service_main_div {
+  margin: 100px auto;
+}
+
+.service-card {
+  position: relative;
+  border-radius: 16px;
+  padding: 20px;
+  z-index: 1;
+  background: #ffffff;
+  overflow: hidden;
+  text-align: center;
+}
+.service-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    150deg,
+    #645eb6,
+    #cac7ee,
+    #fffffa,
+    #fff,
+    #f5f6f8,
+    #cac7ee,
+    #645eb6
+  );
+  border-radius: 16px;
+  z-index: -1;
+  padding: 2px;
+  -webkit-mask: linear-gradient(#645eb6 0 0) content-box,
+    linear-gradient(#645eb6 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+
+.service-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.section-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.service-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+/* syber service */
+
+/* cyber security */
+.secturity_service_main_div {
+  margin-bottom: 100px;
+}
+
+.security_heading_div {
+  max-width: 780px;
+  margin: auto;
+}
+.security_heading_div > p {
+  margin-bottom: 60px;
+}
+.icon-box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-left: 100px;
+}
+.content-section {
+  padding: 2rem 0;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 16px;
+  padding: 20px;
+  z-index: 1;
+  background: #ffffff;
+  overflow: hidden;
+}
+.content-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    270deg,
+    #97a4ea,
+    #97a4ea,
+    #fffffa,
+    #fffffa,
+    #fffffa,
+    #fffffa
+  );
+  border-radius: 16px;
+  z-index: -1;
+  padding: 2px;
+  -webkit-mask: linear-gradient(#645eb6 0 0) content-box,
+    linear-gradient(#645eb6 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+.content-section-1 {
+  padding: 2rem 0;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 16px;
+  padding: 20px;
+  z-index: 1;
+  background: #ffffff;
+  overflow: hidden;
+}
+.content-section-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    85deg,
+    #97a4ea,
+    #97a4ea,
+    #fffffa,
+    #fffffa,
+    #fffffa,
+    #fffffa
+  );
+  border-radius: 16px;
+  z-index: -1;
+  padding: 2px;
+  -webkit-mask: linear-gradient(#645eb6 0 0) content-box,
+    linear-gradient(#645eb6 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+.content-section h3 {
+  color: #1d1495;
+}
+.content-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.content-section ul li {
+  position: relative;
+  padding-top: 12px;
+}
+.content-section-1 h3 {
+  color: #1d1495;
+}
+.content-section-1 ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.content-section-1 ul li {
+  position: relative;
+  padding-top: 12px;
+}
+.section_heading {
+  margin: 30px auto;
+}
+.section-image {
+  max-width: 100%;
+  height: auto;
+}
+/* cyber security */
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: auto 24px;
+  }
+  .cybar_banner_content h2 {
+    font-size: 28px;
+  }
+  .cybar_banner_content p {
+    font-size: 18px;
+  }
+  .cybar_banner_main {
+    padding: 20px;
+    display: block;
+    gap: 20px;
+  }
+  .banner-area img {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cybar_banner_main {
+    gap: 20px;
+  }
+  .cybar_banner_img {
+    width: 100%;
+  }
+}
